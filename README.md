@@ -1,3 +1,6 @@
-# bioSite
-<h2> WEB 200  </h2>
-<h3> Contributors  </h3>
+<h1> WEB 200  </h1>
+<h2> Contributors  </h2>
+<ul>
+  <li>Prof. Kumar</li>
+  <li>Andrew Britt</li>
+</ul>
