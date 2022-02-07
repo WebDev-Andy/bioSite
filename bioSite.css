@@ -1,0 +1,115 @@
+html, body {
+    font-size: 18px;
+    background-color: lightgrey;
+    margin: 0%;
+    
+    
+}
+
+/** Header **/
+header {
+    color: whitesmoke;
+    background-color: darkolivegreen;
+    padding-bottom: 5%;
+}
+
+H1 {
+    font-weight: 150;
+    font-size: 1.5em;
+    word-spacing: .25em;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: left;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 2.8em;
+    word-spacing: .2em;
+    margin: 0;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/** End of Header **/
+
+p {
+    font-family: 'Quattrocento', Georgia, 'Times New Roman', serif;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+/** Site Navigation **/
+button {
+    background-color: #555555;
+    color: whitesmoke;
+    border-radius: 1px;
+    font-size: large;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    border: 5px;
+    
+    
+    
+    
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: #555555;
+    border: 5px;
+    border-color: #555555;
+    border-radius: 2px;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    
+    display: inline-block;
+}
+/** Site Navigation **/
+
+
+
+
+h1, h2 {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    color: rgb(79, 53, 105);
+}
+
+
+
+/** Address Area **/
+
+address {
+    font-family: "Quattrocento", Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+
+address a {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: 4F3674;
+    text-decoration: none;
+}
+
+address a:hover {
+    text-decoration: underline;
+    background-color: D6A800;
+}
+
+address a:visited {
+    text-decoration: wavy;
+    color: rgb(101, 38, 219);
+}
+
+/** End Address Area **/
+
+
+.sentence {
+    font-style: italic;
+} 
