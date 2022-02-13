@@ -11,6 +11,19 @@ header {
     padding-bottom: 5%;
 }
 
+#bImage {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#bImage2 {
+    background-image: url(mountain.png);
+    background-repeat: no-repeat;
+    margin-top: 50%;
+    background-size: 100%;
+    
+}
+
 H1 {
     font-weight: 150;
     font-size: 1.5em;
@@ -29,12 +42,20 @@ h2 {
     padding-top: 15px;
 }
 
+#mainText {
+    color: bisque;
+    margin-left: 1.75%;
+    font-weight: normal;
+    font-style: oblique;
+
+}
+
 /** End of Header **/
 
 p {
     font-family: 'Quattrocento', Georgia, 'Times New Roman', serif;
     font-weight: 400;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 /** Site Navigation **/
@@ -48,10 +69,6 @@ button {
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     border: 5px;
-    
-    
-    
-    
 }
 
 button:hover {
@@ -71,12 +88,18 @@ button:hover {
 }
 /** Site Navigation **/
 
+#tableStyle {
+    color: aqua;
+    text-align: left;
+    margin-bottom: 10%;
+    margin-top: 2.5%;
+    margin-left: 1.75%;
+}
 
 
 
 h1, h2 {
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
-    color: rgb(79, 53, 105);
+
 }
 
 
@@ -109,5 +132,5 @@ address a:visited {
 
 
 .sentence {
-    font-style: italic;
+    
 } 
