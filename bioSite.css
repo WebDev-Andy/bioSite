@@ -13,8 +13,16 @@ header {
     margin: 0;
 }
 
+#hobbyHeader {
+    text-align: left;
+}
+
 #websites {
     margin: 10px;
+}
+
+#hobbyText {
+    text-align: center;
 }
 
 #links {
@@ -25,6 +33,16 @@ header {
     margin: 2.5%;
     padding: .75%;
     
+    
+}
+
+#aboutImg {
+    opacity: 75%;
+    background-position: right;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #indexImg {
@@ -73,6 +91,7 @@ button {
     padding-top: 2.5%;
     border: 1px solid;
     padding-bottom: 1.75%;
+    text-align: center;
 }
 
 
@@ -87,10 +106,11 @@ button:hover {
     margin-left: 1.75%;
     padding-top: 2.5%;
     padding-bottom: 1.75;
+    text-align: center;
 }
 /** Site Navigation **/
 .headerWords {
-    text-align: center;
+    text-align: left;
     margin: 0%;
     
 }
