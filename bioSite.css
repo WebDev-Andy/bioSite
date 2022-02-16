@@ -1,136 +1,94 @@
 html, body {
     font-size: 18px;
-    background-color: lightgrey;
+    background-color: #2F1B2F;
     margin: 0%;
 }
+/** Color palette, Beige #F2E9C7, Peru #C7782F, Black #2F1B2F, Rosy Brown #CBB7A5, Old Rose #8E3645 **/
 
-/** Header **/
+
 header {
-    color: whitesmoke;
-    background-color: darkolivegreen;
-    padding-bottom: 5%;
+    color: #F2E9C7;
+    background-color: #2F1B2F;
+    padding-bottom: 0%;
+    margin: 0;
 }
 
-#bImage {
-    background-repeat: no-repeat;
-    background-size: contain;
+#indexImg {
+    opacity: 75%;
+    background-position: right;
+    max-width: 100%;
+    margin-left: 5%;
+    min-width: 1%;
 }
 
-#bImage2 {
-    background-image: url(mountain.png);
-    background-repeat: no-repeat;
-    margin-top: 50%;
-    background-size: 100%;
+#mainText {
+    margin-left: 10px;
+}
+
+#caption {
+    color: #F2E9C7;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+/** Site Navigation **/
+button {
+    background-color: #2F1B2F;
+    color: #F2E9C7;
+    border-radius: 1px;
+    margin-left: 10px;
+    font-size: large;
     
+    padding-top: 2.5%;
+    border: 1px solid;
+    padding-bottom: 1.75%;
+}
+
+
+button:hover {
+    background-color: #8E3645;
+    color: #F2E9C7;
+    border: 1px;
+    border-color: #555555;
+    border-radius: 2px;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 10px;
+    
+    padding-top: 2.5%;
+    padding-bottom: 1.75;
+}
+/** Site Navigation **/
+.headerWords {
+    text-align: center;
 }
 
 H1 {
     font-weight: 150;
+    color: #F2E9C7;
     font-size: 1.5em;
     word-spacing: .25em;
-    text-transform: uppercase;
-    margin: 0;
     text-align: left;
 }
+
 
 h2 {
     font-weight: 500;
     font-size: 2.8em;
     word-spacing: .2em;
-    margin: 0;
+    margin: 0%;
     text-align: center;
     padding-top: 15px;
 }
 
-#mainText {
-    color: bisque;
-    margin-left: 1.75%;
-    font-weight: normal;
-    font-style: oblique;
-
-}
-
-/** End of Header **/
 
 p {
     font-family: 'Quattrocento', Georgia, 'Times New Roman', serif;
+    color: #F2E9C7;
     font-weight: 400;
     line-height: 1.5em;
 }
 
-/** Site Navigation **/
-button {
-    background-color: #555555;
-    color: whitesmoke;
-    border-radius: 1px;
-    font-size: large;
-    margin: 0px;
-    padding: 5px;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    border: 5px;
-}
-
-button:hover {
-    background-color: whitesmoke;
-    color: #555555;
-    border: 5px;
-    border-color: #555555;
-    border-radius: 2px;
-    font-size: medium;
-    font-weight: bold;
-    margin: 0px;
-    padding: 5px;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    
-    display: inline-block;
-}
-/** Site Navigation **/
-
-#tableStyle {
-    color: aqua;
-    text-align: left;
-    margin-bottom: 10%;
-    margin-top: 2.5%;
-    margin-left: 1.75%;
-}
 
 
-
-h1, h2 {
-
-}
-
-
-
-/** Address Area **/
-
-address {
-    font-family: "Quattrocento", Georgia, "Times New Roman", serif;
-    text-align: center;
-}
-
-address a {
-    font-weight: bold;
-    font-size: 1.25em;
-    color: 4F3674;
-    text-decoration: none;
-}
-
-address a:hover {
-    text-decoration: underline;
-    background-color: D6A800;
-}
-
-address a:visited {
-    text-decoration: wavy;
-    color: rgb(101, 38, 219);
-}
-
-/** End Address Area **/
-
-
-.sentence {
-    
-} 
