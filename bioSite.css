@@ -1,7 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html, body {
     font-size: 18px;
     background-color: #2F1B2F;
-    margin: 0%;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.main {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+#hobbyImg {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
 }
 /** Color palette, Beige #F2E9C7, Peru #C7782F, Black #2F1B2F, Rosy Brown #CBB7A5, Old Rose #8E3645 **/
 
@@ -9,7 +38,7 @@ header {
     color: #F2E9C7;
     background-color: #2F1B2F;
     padding-bottom: 0%;
-    margin: 0;
+    margin: 0; 
 }
 
 #websites {
@@ -85,6 +114,8 @@ button {
     border: 1px solid;
     padding-bottom: 1.75%;
     text-align: center;
+    max-height: 10%;
+    height: 10%;
 }
 
 button:hover {
@@ -99,6 +130,8 @@ button:hover {
     padding-top: 2.5%;
     padding-bottom: 1.75;
     text-align: center;
+    max-height: 10%;
+    height: 10%;
 }
 /** End Site Navigation **/
 
