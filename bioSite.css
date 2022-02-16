@@ -40,9 +40,15 @@ header {
 #list {
     color: #F2E9C7;
     font-family: 'Quattrocento Sans', sans-serif;
+    text-align: left;
+    margin-left: 50%;
+
     
 
 }
+
+    
+
 
 #mainText {
     margin-left: 1.75%;
