@@ -5,7 +5,6 @@ html, body {
 }
 /** Color palette, Beige #F2E9C7, Peru #C7782F, Black #2F1B2F, Rosy Brown #CBB7A5, Old Rose #8E3645 **/
 
-
 header {
     color: #F2E9C7;
     background-color: #2F1B2F;
@@ -13,16 +12,12 @@ header {
     margin: 0;
 }
 
-#hobbyHeader {
-    text-align: left;
-}
-
 #websites {
     margin: 10px;
 }
 
 #hobbyText {
-    text-align: center;
+    margin-left: 1.75%;
 }
 
 #links {
@@ -32,14 +27,12 @@ header {
     border-radius: 5%;
     margin: 2.5%;
     padding: .75%;
-    
-    
 }
 
 #aboutImg {
     opacity: 75%;
     background-position: right;
-    width: 50%;
+    width: 35%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -52,24 +45,24 @@ header {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    
 }
 
 #list {
     color: #F2E9C7;
     font-family: 'Quattrocento Sans', sans-serif;
     text-align: left;
-    margin-left: 50%;
-
+    margin-left: 0%;
+    padding: 1%;
+    width: fit-content;
+    border: #F2E9C7 solid 1px;
     
-
+    
+    
 }
-
-    
-
 
 #mainText {
     margin-left: 1.75%;
+    color: #F2E9C7;
 }
 
 #caption {
@@ -94,7 +87,6 @@ button {
     text-align: center;
 }
 
-
 button:hover {
     background-color: #8E3645;
     font-family: 'Quattrocento Sans', sans-serif;
@@ -108,11 +100,11 @@ button:hover {
     padding-bottom: 1.75;
     text-align: center;
 }
-/** Site Navigation **/
+/** End Site Navigation **/
+
 .headerWords {
     text-align: left;
-    margin: 0%;
-    
+    margin-left: 1.75%;
 }
 
 H1 {
@@ -124,7 +116,6 @@ H1 {
     text-align: left;
 }
 
-
 h2 {
     font-weight: 500;
     font-family: 'Quattrocento Sans', sans-serif;
@@ -134,7 +125,6 @@ h2 {
     text-align: center;
     padding-top: 15px;
 }
-
 
 p {
     font-family: 'Quattrocento Sans', sans-serif;
