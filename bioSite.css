@@ -13,6 +13,14 @@ header {
     margin: 0;
 }
 
+#websites {
+    margin: 10px;
+}
+
+#links {
+    color: #F2E9C7;
+}
+
 #indexImg {
     opacity: 75%;
     background-position: right;
