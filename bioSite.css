@@ -172,7 +172,8 @@ button {
     font-family: 'Roboto Mono', monospace;
     color: #F2E9C7;
     border-radius: 1px;
-    margin-left: 1.75%;
+    margin-right: 0;
+    margin-left: 5px;
     margin-bottom: 1.75%;
     font-size: large;
     border: 2px solid #F2E9C7;
@@ -188,7 +189,8 @@ button:hover {
     font-family: 'Roboto Mono', monospace;
     color: #F2E9C7;
     border-radius: 1px;
-    margin-left: 1.75%;
+    margin-right: 0;
+    margin-left: 5px;
     font-size: large;
     padding: 15px;
     border: 2px solid #F2E9C7;
