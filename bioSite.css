@@ -42,6 +42,8 @@ header {
 
 #hobbyText {
     margin-left: 1.75%;
+    text-align: center;
+    font-weight: normal;
 }
 
 #links {
@@ -83,7 +85,7 @@ header {
     color: #f2f2f2;
     font-family: 'Roboto Mono', monospace;
     text-align: left;
-    margin-left: 25px;
+    margin-left: 45%;
     margin-top: 25px;
     padding: 25px;
     width: fit-content;
