@@ -9,10 +9,6 @@ html, body {
     background-color: #2F1B2F;
 }
 
-body {
-    min-height: 100vh;
-    overflow-x: hidden;
-}
 
 .main {
     position: absolute;
@@ -26,12 +22,6 @@ body {
     row-gap: 10px;
 }
 
-#hobbyImg {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    object-position: center;
-}
 /** Color palette, Beige #F2E9C7, Peru #C7782F, Black #2F1B2F, Rosy Brown #CBB7A5, Old Rose #8E3645 **/
 
 header {
@@ -86,6 +76,92 @@ header {
     border: #F2E9C7 solid 1px;
     
     
+    
+}
+
+/* Photo Gallery Styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container .heading {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.container .heading h3 {
+    font-size: 3em;
+    font-weight: bolder;
+    color: #F2E9C7;
+    border-bottom: 3px solid #F2E9C7;
+    padding-bottom: 10px;
+}
+
+.container .heading h3 span {
+    font-weight: 100;
+}
+
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.container .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .dream img {
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* End Photo Gallery Styles */
+
+#myBtn {
+    background-color: #2F1B2F;
+    color: #F2E9C7;
+    border: #F2E9C7 solid 1px;
+    
+    position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 50%;
+        left: 50%;
+        max-width: 35px;
+        max-height: fit-content;
+        width: 100%;
+        font-size: 12px;
+      
+        
+        padding: 5px;
+        border-radius: 4px;
+}
+
+.btn {
+    background-color: #2F1B2F;
+    color: #F2E9C7;
+    border: #F2E9C7 solid 1px;
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    margin-left: 50%;
+    max-width: 30px;
+    width: 100%;
+    font-size: 12px;
+    border-color: #F2E9C7 solid 1px ;
+    padding: .5px;
+    border-radius: 4px;
+    text-align: center;
     
 }
 
@@ -167,12 +243,6 @@ p {
     margin-left: 1.75%;
 }
 
-.column {
-    flex: 25%;
-    padding: 5px;
-}
 
-.row {
-    display: flexbox;
-}
+
 
