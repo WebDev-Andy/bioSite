@@ -34,9 +34,14 @@ header {
 
 #websites {
     margin: 25px;
-
+    padding: 10px;
     float: right;
     border: solid 2px #F2E9C7;
+
+}
+
+#websites p {
+    text-align: center;
 
 }
 
@@ -47,13 +52,14 @@ header {
 }
 
 #links {
-    color: #F2E9C7;
-    background-color: #C7782F;
+    color: #2F1B2F;
+    background-color: #F2E9C7;
     border: #F2E9C7 solid 1px;
     border-radius: 5%;
-    margin-top: 0;
+    margin-top: 10px;
     padding: .75%;
     float: right;
+    margin-right: 10px;
 }
 
 #mainText {
