@@ -33,7 +33,11 @@ header {
 }
 
 #websites {
-    margin: 10px;
+    margin: 25px;
+
+    float: right;
+    border: solid 2px #F2E9C7;
+
 }
 
 #hobbyText {
@@ -45,16 +49,24 @@ header {
     background-color: #C7782F;
     border: #F2E9C7 solid 1px;
     border-radius: 5%;
-    margin-top: 2.5%;
+    margin-top: 0;
     padding: .75%;
+    float: right;
+}
+
+#mainText {
+    color: #F2E9C7;
+    margin-top: 15px;
 }
 
 #aboutImg {
+    float: left;
     opacity: 75%;
     background-position: right;
     width: 35%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
     display: block;
 }
 
@@ -78,8 +90,6 @@ header {
     border: #F2E9C7 solid 2px;
     padding-top: 5px;
     padding-bottom: 5px;
-    
-    
     
 }
 
@@ -209,11 +219,6 @@ p {
     font-weight: 400;
     line-height: 1.5em;
     margin-left: 1.75%;
-}
-
-#mainText {
-    margin-left: 1.75%;
-    color: #F2E9C7;
 }
 
 #caption {
