@@ -32,14 +32,6 @@ header {
     margin: 0; 
 }
 
-#websites {
-    margin: 25px;
-    padding: 10px;
-    float: right;
-    border: solid 2px #F2E9C7;
-    box-shadow: 0 8px 8px 0;
-}
-
 #hobbyText {
     margin-left: 1.75%;
     text-align: center;
@@ -48,6 +40,18 @@ header {
 
 /****************/
 /* Website Div */
+#websites {
+    margin: 25px;
+    padding: 10px;
+    float: right;
+    border: solid 2px #F2E9C7;
+    box-shadow: 0 8px 8px 0;
+}
+
+#websites a {
+    text-decoration: none;
+}
+
 #websites p {
     text-align: center;
 }
@@ -56,15 +60,15 @@ header {
     box-shadow: 0 13px 13px 0;
 }
 
-#links {
+#websites a {
     color: #2F1B2F;
     background-color: #F2E9C7;
     border: black solid 1px;
     border-radius: 5%;
     margin-top: 10px;
-    padding: 5px;
+    padding: 6px;
     float: right;
-    margin-right: 10px;
+    margin-right: 13px;
     font-size: medium;
 }
 
