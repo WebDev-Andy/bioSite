@@ -37,7 +37,11 @@ header {
     padding: 10px;
     float: right;
     border: solid 2px #F2E9C7;
+    box-shadow: 0 8px 8px 0;
+}
 
+#websites:hover {
+    box-shadow: 0 13px 13px 0;
 }
 
 #websites p {
@@ -54,7 +58,7 @@ header {
 #links {
     color: #2F1B2F;
     background-color: #F2E9C7;
-    border: #F2E9C7 solid 1px;
+    border: black solid 1px;
     border-radius: 5%;
     margin-top: 10px;
     padding: .75%;
@@ -62,9 +66,15 @@ header {
     margin-right: 10px;
 }
 
+#links:hover {
+    color: #F2E9C7;
+    background-color: #C7782F;
+}
+
 #mainText {
     color: #F2E9C7;
     margin-top: 15px;
+    font-size: large;
 }
 
 #aboutImg {
@@ -206,12 +216,94 @@ button:hover {
     text-align: center;
     max-height: 5%;
     height: 5%;
+    box-shadow: 1px 8px 8px 1px black;
+   
 }
 /** End Site Navigation **/
 
 .headerWords {
     text-align: left;
     margin-left: 1.75%;
+}
+
+#one {
+    text-decoration: none;
+    cursor: grab;
+}
+
+#one:hover {
+    color: darkmagenta;
+    cursor: grab;
+}
+
+#two {
+    text-decoration: none;
+    cursor: grab;
+}
+
+#two:hover {
+    color: #C7782F;
+    cursor: grab;
+}
+
+#three {
+    text-decoration: none;
+    cursor: grab;
+}
+
+#three:hover {
+    color: aquamarine;
+    cursor: grab;
+}
+
+#four {
+    text-decoration: none;
+    cursor: grab;
+}
+
+#four:hover {
+    color: #C7782F;
+    cursor: grab;
+}
+
+#five {
+    text-decoration: none;
+    cursor: grab;
+}
+
+#five:hover {
+    color: darkmagenta;
+    cursor: grab;
+}
+
+#six {
+    text-decoration: none;
+    cursor: grab;
+}
+
+#six:hover {
+    color: #C7782F;
+    cursor: grab;
+}
+
+#seven {
+    text-decoration: none;
+    cursor: grab;
+}
+
+#seven:hover {
+    color: aquamarine;
+    cursor: grab;
+}
+
+#eight {
+    text-decoration: none;
+    cursor: grab;
+}
+
+#eight:hover {
+    color: #C7782F;
+    cursor: grab;
 }
 
 H1 {
