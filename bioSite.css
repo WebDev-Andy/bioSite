@@ -40,19 +40,20 @@ header {
     box-shadow: 0 8px 8px 0;
 }
 
-#websites:hover {
-    box-shadow: 0 13px 13px 0;
-}
-
-#websites p {
-    text-align: center;
-
-}
-
 #hobbyText {
     margin-left: 1.75%;
     text-align: center;
     font-weight: normal;
+}
+
+/****************/
+/* Website Div */
+#websites p {
+    text-align: center;
+}
+
+#websites:hover {
+    box-shadow: 0 13px 13px 0;
 }
 
 #links {
@@ -61,15 +62,18 @@ header {
     border: black solid 1px;
     border-radius: 5%;
     margin-top: 10px;
-    padding: .75%;
+    padding: 5px;
     float: right;
     margin-right: 10px;
+    font-size: medium;
 }
 
 #links:hover {
     color: #F2E9C7;
     background-color: #C7782F;
 }
+/* End Website Div */
+/******************/
 
 #mainText {
     color: #F2E9C7;
@@ -163,7 +167,8 @@ header {
 
 #hobPic:hover {
     box-shadow: 0 20px 50px 0;
-    width: 103%;
+    width: 101%;
+    border: solid 3px #F2E9C7;
 
 }
 /* End Photo Gallery Styles */
