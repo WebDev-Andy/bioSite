@@ -46,6 +46,7 @@ header {
     float: right;
     border: solid 2px #F2E9C7;
     box-shadow: 0 8px 8px 0;
+   
 }
 
 #websites a {
@@ -113,19 +114,40 @@ header {
     transform: scale(1.1);
 }
 
+
+/*************************/
+/******Hobbies Box*******/
+.listDrop {
+   
+}
+
 #list {
     color: #f2f2f2;
     font-family: 'Roboto Mono', monospace;
     text-align: left;
     margin-left: 45%;
     margin-top: 25px;
-    padding: 25px;
-    width: fit-content;
+    padding: 30px;
+    width: max-content;
     border: #F2E9C7 solid 2px;
     padding-top: 5px;
     padding-bottom: 5px;
-    
 }
+
+#list li {
+    cursor: pointer;
+}
+
+#list li:hover {
+    color: cornflowerblue;
+}
+
+#listBtn {
+
+}
+/*****End Hobbies Box*****/
+/************************/
+
 
 /* Photo Gallery Styles */
 .container {
@@ -154,27 +176,25 @@ header {
     font-weight: 100;
 }
 
-#list li:hover {
-    color: cornflowerblue;
-}
 
-.container .box {
+
+.box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
 }
 
-.container .box .dream {
+.dream {
     display: flex;
     flex-direction: column;
     width: 32.5%;
 }
-
-.container .box .dream img {
+.dream img {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 #hobPic:hover {
@@ -201,9 +221,13 @@ header {
     font-size: 12px;      
     padding: 5px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 /** Site Navigation **/
+
+
+
 button {
     background-color: #2F1B2F;
     font-family: 'Roboto Mono', monospace;
@@ -218,6 +242,7 @@ button {
     text-align: center;
     max-height: 5%;
     height: 5%;
+    cursor: pointer;
 }
 
 
