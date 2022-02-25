@@ -149,7 +149,8 @@ header {
 /************************/
 
 
-/* Photo Gallery Styles */
+/*****************************/
+/****Photo Gallery Styles****/
 .container {
     display: flex;
     flex-direction: column;
