@@ -1,3 +1,5 @@
+/** Color palette, Beige #F2E9C7, Peru #C7782F, Black #2F1B2F, Rosy Brown #CBB7A5, Old Rose #8E3645 **/
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +11,6 @@ html, body {
     font-size: 18px;
     background-color: #2F1B2F;
 }
-
 
 .main {
     position: absolute;
@@ -23,13 +24,33 @@ html, body {
     row-gap: 10px;
 }
 
-/** Color palette, Beige #F2E9C7, Peru #C7782F, Black #2F1B2F, Rosy Brown #CBB7A5, Old Rose #8E3645 **/
-
 header {
     color: #F2E9C7;
     background-color: #2F1B2F;
     padding-bottom: 0%;
     margin: 0; 
+}
+
+.headerWords {
+    text-align: left;
+    margin-left: 1.75%;
+}
+
+#indexImg {
+    opacity: 90%;
+    background-position: right;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: solid 2px black;
+    box-shadow: 0px 7px 7px 0px;
+}
+
+#indexImg:hover {
+    opacity: 100%;
+    box-shadow: 0px 9px 9px 0px;
+    transform: scale(1.1);
 }
 
 #hobbyText {
@@ -46,7 +67,6 @@ header {
     float: right;
     border: solid 2px #F2E9C7;
     box-shadow: 0 8px 8px 0;
-   
 }
 
 #websites a {
@@ -95,23 +115,6 @@ header {
     margin-left: 15px;
     margin-right: 15px;
     display: block;
-}
-
-#indexImg {
-    opacity: 90%;
-    background-position: right;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border: solid 2px black;
-    box-shadow: 0px 7px 7px 0px;
-}
-
-#indexImg:hover {
-    opacity: 100%;
-    box-shadow: 0px 9px 9px 0px;
-    transform: scale(1.1);
 }
 
 
@@ -264,11 +267,6 @@ button:hover {
    
 }
 /** End Site Navigation **/
-
-.headerWords {
-    text-align: left;
-    margin-left: 1.75%;
-}
 
 #one {
     text-decoration: none;
