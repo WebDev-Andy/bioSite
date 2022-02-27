@@ -229,6 +229,10 @@ header {
     cursor: pointer;
 }
 
+#myBtn:hover {
+    background-color: #2F1B2F;
+}
+
 /** Site Navigation **/
 
 
