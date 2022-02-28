@@ -31,11 +31,9 @@ header {
     margin: 0; 
 }
 
-.headerWords {
-    text-align: left;
-    margin-left: 1.75%;
-}
 
+/**********************/
+/** Index Page Image **/
 #indexImg {
     opacity: 90%;
     background-position: right;
@@ -53,14 +51,22 @@ header {
     box-shadow: 0px 9px 9px 0px;
     transform: scale(1.1);
 }
+/** End Index Image **/
+/*********************/
 
+
+/*******************/
+/* Hobby Page Text */
 #hobbyText {
     margin-left: 1.75%;
     text-align: center;
     font-weight: normal;
 }
+/** End Hobby Text **/
+/********************/
 
-/****************/
+
+/***************/
 /* Website Div */
 #websites {
     margin: 25px;
@@ -96,14 +102,23 @@ header {
 
 #links:hover {
     color: #F2E9C7;
-    background-color: #C7782F;
+    background-color: #8E3645;
+}
+
+#links:active {
+    background:linear-gradient(-60deg, #F2E9C7 30%, #C7782F 80%);
+    color: #000000;
 }
 /* End Website Div */
-/******************/
+/*******************/
 
+
+
+/******************/
+/*** About Page ***/
 #mainText {
     color: #F2E9C7;
-    margin-top: 15px;
+    margin: 15px;
     font-size: large;
 }
 
@@ -121,16 +136,15 @@ header {
 #aboutImg:hover {
     transform: scale(1.05);
 }
+/** End About Page **/
+/********************/
 
 
-/*************************/
-/******Hobbies Box*******/
-.listDrop {
-   
-}
 
+/************************/
+/****  Hobbies Box  *****/
 #list {
-    color: #f2f2f2;
+    color: #F2E9C7;
     font-family: 'Roboto Mono', monospace;
     text-align: left;
     margin-left: 13%;
@@ -149,15 +163,12 @@ header {
 #list li:hover {
     color: cornflowerblue;
 }
-
-#listBtn {
-
-}
 /*****End Hobbies Box*****/
-/************************/
+/*************************/
 
 
-/*****************************/
+
+/****************************/
 /****Photo Gallery Styles****/
 .container {
     display: flex;
@@ -185,13 +196,10 @@ header {
     font-weight: 100;
 }
 
-
-
 .box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
 
 .dream {
@@ -199,6 +207,7 @@ header {
     flex-direction: column;
     width: 32.5%;
 }
+
 .dream img {
     width: 100%;
     margin-bottom: 15px;
@@ -208,12 +217,11 @@ header {
 
 #hobPic:hover {
     box-shadow: 0 20px 50px 0;
-    
     transform: scale(1.3);
     border: solid 1px black;
-
 }
 /* End Photo Gallery Styles */
+/****************************/
 
 #myBtn {
     background-color: transparent;
@@ -231,16 +239,22 @@ header {
     padding: 5px;
     border-radius: 4px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #myBtn:hover {
     background-color: #2F1B2F;
+    text-decoration: none;
 }
 
+#myBtn:active {
+    background-color: red;
+    color: black;
+    text-decoration: none;
+}
+
+/*********************/
 /** Site Navigation **/
-
-
-
 button {
     background-color: #2F1B2F;
     font-family: 'Roboto Mono', monospace;
@@ -258,7 +272,6 @@ button {
     cursor: pointer;
 }
 
-
 button:hover {
     background-color: #8E3645;
     font-family: 'Roboto Mono', monospace;
@@ -273,9 +286,22 @@ button:hover {
     max-height: 5%;
     height: 5%;
     box-shadow: 1px 8px 8px 1px black;
-   
+}
+
+button:active {
+    background:linear-gradient(-60deg, #F2E9C7 30%, #C7782F 80%);
+    color: #000000;
 }
 /** End Site Navigation **/
+/************************/
+
+
+/***********************/
+/*** Color Changers ***/
+.headerWords {
+    text-align: left;
+    margin-left: 1.75%;
+}
 
 #one {
     text-decoration: none;
@@ -356,6 +382,8 @@ button:hover {
     color: #C7782F;
     cursor: grab;
 }
+/*** End Color Changer ***/
+/************************/
 
 H1 {
     font-weight: 150;
@@ -384,13 +412,7 @@ p {
     margin-left: 1.75%;
 }
 
-#caption {
-    color: #F2E9C7;
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
-    font-weight: bolder;
-    margin-bottom: 10px;
-}
+
 
 
 
