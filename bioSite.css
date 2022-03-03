@@ -179,7 +179,8 @@ header {
 
 #list li:hover {
     color: cornflowerblue;
-    animation: bounce .5s;
+    text-decoration: underline;
+    
 }
 /*****End Hobbies Box*****/
 /*************************/
