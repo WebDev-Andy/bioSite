@@ -179,7 +179,7 @@ header {
 
 #list li:hover {
     color: cornflowerblue;
-    text-decoration: underline;
+    transform: scale(1.1);
     
 }
 /*****End Hobbies Box*****/
