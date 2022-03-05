@@ -99,7 +99,8 @@ header {
     margin-right: 13px;
     font-size: medium;
 }
-
+/*******************/
+/** Bounce Effect **/
 @keyframes bounce {
     0%, 20%, 60%, 100% {
         -webkit-transform: translateY(0);
