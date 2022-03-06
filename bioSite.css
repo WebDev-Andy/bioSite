@@ -34,22 +34,36 @@ header {
 
 /**********************/
 /** Index Page Image **/
-#indexImg {
-    opacity: 90%;
-    background-position: right;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    border: solid 2px rgb(0, 0, 0);
-    box-shadow: 0px 7px 7px 0px;
-    color: rgba(0, 0, 0, 1);
+#indexBtn {
+    background-color: #2F1B2F;
+    opacity: 93.5%;
+    margin-left: 0%;
+    width: 100%;
+    height: auto;
+    border: none;
+    display: block;
+    float: left;
+    box-shadow: 0px 9px 9px 0px;
 }
 
-#indexImg:hover {
+#buttonBg {
+    float: left;
+    opacity: 90%;
+    background-position: right;
+    width: 40%;
+    
+    margin-left: 15px;
+    margin-right: 15px;
+    display: block;
+    border: none;
+    height: auto;
+    background-color: #2F1B2F;
+}
+
+#buttonBg:hover {
     opacity: 100%;
-    box-shadow: 0px 9px 9px 0px;
-    transform: scale(1.1);
+    
+    transform: scale(1.05);
 }
 /** End Index Image **/
 /*********************/
@@ -149,10 +163,14 @@ header {
     margin-left: 15px;
     margin-right: 15px;
     display: block;
+    border: none;
+    height: auto;
+    background-color: #2F1B2F;
 }
 
 #aboutImg:hover {
     transform: scale(1.05);
+    opacity: 100%;
 }
 /** End About Page **/
 /********************/
@@ -309,7 +327,7 @@ header {
     box-shadow: 1px 8px 8px 1px black;
 }
 
-button:active {
+#navBtn:active {
     background:linear-gradient(-60deg, #F2E9C7 30%, #C7782F 80%);
     color: #000000;
 }
