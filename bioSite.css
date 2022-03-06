@@ -406,6 +406,9 @@ button:active {
 /*** End Color Changer ***/
 /************************/
 
+
+/***********/
+/** Texts **/
 H1 {
     font-weight: 150;
     font-family: 'Roboto Mono', monospace;
@@ -432,8 +435,8 @@ p {
     line-height: 1.5em;
     margin-left: 1.75%;
 }
-
-
+/** End Texts **/
+/***************/
 
 
 
