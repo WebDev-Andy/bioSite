@@ -83,19 +83,18 @@ header {
 /***************/
 /* Website Div */
 #websites {
+    width: 30%;
+    height: auto;
     margin: 25px;
     padding: 10px;
-    float: right;
+    float:  right;
     border: solid 2px #F2E9C7;
     box-shadow: 0 8px 8px 0;
 }
 
-#websites a {
-    text-decoration: none;
-}
-
 #websites p {
     text-align: center;
+    padding: 5%;
 }
 
 #websites:hover {
@@ -107,11 +106,27 @@ header {
     background-color: #F2E9C7;
     border: black solid 1px;
     border-radius: 5%;
-    margin-top: 10px;
+    margin-left: 12px;
     padding: 6px;
-    float: left;
-    margin-right: 13px;
     font-size: medium;
+    text-decoration: none;
+    text-align: left;
+}
+
+#links {
+    text-align: left;
+   
+}
+
+#links:hover {
+    color: #F2E9C7;
+    background-color: #8E3645;
+    animation: bounce 1s;
+}
+
+#links:active {
+    background:linear-gradient(-60deg, #F2E9C7 30%, #C7782F 80%);
+    color: #000000;
 }
 /*******************/
 /** Bounce Effect **/
@@ -128,18 +143,6 @@ header {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
     }
-}
-
-#links:hover {
-    color: #F2E9C7;
-    background-color: #8E3645;
-    animation: bounce 1s;
-}
-
-
-#links:active {
-    background:linear-gradient(-60deg, #F2E9C7 30%, #C7782F 80%);
-    color: #000000;
 }
 /* End Website Div */
 /*******************/
