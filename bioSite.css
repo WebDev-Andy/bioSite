@@ -83,7 +83,7 @@ header {
 /***************/
 /* Website Div */
 #websites {
-    width: 30%;
+    width: fit-content;
     height: auto;
     margin: 25px;
     padding: 10px;
@@ -113,15 +113,10 @@ header {
     text-align: left;
 }
 
-#links {
-    text-align: left;
-   
-}
-
 #links:hover {
     color: #F2E9C7;
     background-color: #8E3645;
-    animation: bounce 1s;
+    animation: bounce .5s;
 }
 
 #links:active {
@@ -186,17 +181,19 @@ header {
     color: #F2E9C7;
     font-family: 'Roboto Mono', monospace;
     text-align: left;
-    margin-left: 13%;
+    margin-left: 45%;
     margin-top: 25px;
     padding: 30px;
     width: max-content;
     border: #F2E9C7 solid 2px;
     padding-top: 5px;
     padding-bottom: 5px;
+    
 }
 
 #list li {
     cursor: pointer;
+   
 }
 
 #list li:hover {
@@ -204,6 +201,17 @@ header {
     transform: scale(1.1);
     
 }
+
+#listBtn {
+    background-color: #2F1B2F;
+    color: #F2E9C7;
+    border: none;
+}
+
+#listBtn:hover {
+    animation: bounce 1s;
+}
+
 /*****End Hobbies Box*****/
 /*************************/
 
