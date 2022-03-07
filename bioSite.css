@@ -31,7 +31,6 @@ header {
     margin: 0; 
 }
 
-
 /**********************/
 /** Index Page Image **/
 #indexBtn {
@@ -51,7 +50,6 @@ header {
     opacity: 90%;
     background-position: right;
     width: 40%;
-    
     margin-left: 15px;
     margin-right: 15px;
     display: block;
@@ -62,7 +60,6 @@ header {
 
 #buttonBg:hover {
     opacity: 100%;
-    
     transform: scale(1.05);
 }
 /** End Index Image **/
@@ -123,6 +120,7 @@ header {
     background:linear-gradient(-60deg, #F2E9C7 30%, #C7782F 80%);
     color: #000000;
 }
+
 /*******************/
 /** Bounce Effect **/
 @keyframes bounce {
@@ -188,18 +186,15 @@ header {
     border: #F2E9C7 solid 2px;
     padding-top: 5px;
     padding-bottom: 5px;
-    
 }
 
 #list li {
     cursor: pointer;
-   
 }
 
 #list li:hover {
     color: cornflowerblue;
     transform: scale(1.1);
-    
 }
 
 #listBtn {
